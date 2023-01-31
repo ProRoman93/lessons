@@ -1,0 +1,45 @@
+@import url(reset.css);
+
+* {
+    color: violet;
+}
+body {
+    background-color: black;
+}
+a {
+    color: aqua;
+}
+.description {
+    color: brown;
+}
+#main-header {
+    color: #FFFFFF;
+}
+.description.header-description {
+    color: Green;
+}
+h2.header {
+    color: #CCFFFF;
+}
+.description span {
+    color: #CCFFCC;
+}
+.image-label > span {
+    color: #FFFF00;
+}
+
+.span-header ~ span {
+    color: red;
+}
+.penult-description + p {
+    color: #CCFF99;
+}
+[test-attribute] {
+    color: #CCCCFF;
+}
+.description .span-header {
+    color: #6600FF;
+}
+.footer-list li {
+    color: #996600;
+}

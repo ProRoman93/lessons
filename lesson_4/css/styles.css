@@ -1,0 +1,44 @@
+@import url("reset.css");
+
+@font-face {
+	font-family: "Madering";
+	src: url('../fonts/MADERING.woff2') format('woff2'), url('../fonts/MADERING.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.label {
+	font-family: 'Averia Libre', cursive;
+	font-size: 10px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: navy;
+}
+.text {
+	font-family: 'Madering';
+	font-size: 18px;
+	color: brown;
+	text-indent: 16px;
+}
+.list {
+	color: turquoise;
+	font-family: Poly;
+	font-size: 18px;
+	word-spacing: 8px;
+    text-transform: lowercase;
+}
+.header {
+	text-transform: capitalize;
+	box-shadow: aqua;
+	color: skyblue;
+	text-align: center;
+    line-height: 2;
+}
+.header + a {
+    font-family: Poly;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: navy;
+}
